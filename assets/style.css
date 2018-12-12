@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+}
+
+@media (min-width: 768px) {
+	.mini-container {
+		width: 750px;
+	}
+}
+
+.hover1 {
+	padding: 10px 0;
+}
+
+.hover1:hover {
+	background-color: #ddd;
+	cursor: pointer;
+
+}
+
+/*.bg-img{
+	background-image: url('img.jpg');
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+.image_profile:hover {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.navbar {
+	border-radius: unset;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.offsetLeft {
+	padding-left: 30px;
+}
+
+.media-object {
+	max-width: 40px;
+	max-height: 40px;
+	height: 40px;
+}
+
+.wrap-profil {
+	border: 1px solid #D5D5D5;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.overlay {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.icon-overlay {
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 15px;
+}
+
+/*.overlay-profile{
+	transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}*/
+.overlay-profile {
+	opacity: 0;
+	transition: .5s ease;
+}
+
+.overlay-profile i {
+	position: absolute;
+	left: 8.9%;
+	top: 180px;
+}
+
+.icon-overlay-profile {
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 15px;
+}
+
+.container-image {
+	position: relative;
+}
+
+.container-image:hover .overlay {
+	opacity: 1;
+}
+
+.container-image-profile:hover .overlay-profile {
+	opacity: 1;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.actionStatus .btn {
+	padding: 3px 6px;
+	border: unset;
+}
+
+.actionStatus .btn:hover {
+	opacity: .6;
+}
+
+.actionStatus .btn i {
+	color: #fff;
+}
+
+/* .actionStatus > .btn:nth-child(1){
+	background-color: #03A9F4;
+}
+.actionStatus > .btn:nth-child(2){
+	background-color: #F44336;
+} */
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	padding: 10px 0;
+	margin-top: 10px;
+}
+
+/* RESPONSIVE */
